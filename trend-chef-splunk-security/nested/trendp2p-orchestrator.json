@@ -190,6 +190,18 @@
           "vmName": {
             "value": "[parameters('vmNameOrchServer')]"
           }
+        },
+        "trendmicroTags": {
+            "value": "[parameters('trendmicroTags')]"
+        },
+        "chef-softwareTags": {
+            "value": "[parameters('chef-softwareTags')]"
+        },
+        "splunkTags": {
+            "value": "[parameters('splunkTags')]"
+        },
+        "quickstartTags": {
+            "value": "[parameters('quickstartTags')]"
         }
       }
     },
