@@ -376,19 +376,19 @@
               "existingSQLServerName": { "value": "[parameters('existingSQLServerName')]"},
               "dbAdminName": { "value": "[parameters('dbAdminName')]" },
               "dbAdminPassword": { "value": "[parameters('dbAdminPassword')]" },
-              "sqlDBName": { "value": "[parameters('dbName')]" } ,
+              "sqlDBName": { "value": "[parameters('dbName')]" },
               "trendmicroTags": {
-                  "type": "object"
+                 "value": "[parameters('trendmicroTags')]"
               },
               "chef-softwareTags": {
-                  "type": "object"
+                 "value": "[parameters('chef-softwareTags')]"
               },
               "splunkTags": {
-                  "type": "object"
+                 "value": "[parameters('splunkTags')]"
               },
               "quickstartTags": {
-                  "type": "object"
-              }             
+                "value": "[parameters('quickstartTags')]"
+              }          
             }
         }
       }
