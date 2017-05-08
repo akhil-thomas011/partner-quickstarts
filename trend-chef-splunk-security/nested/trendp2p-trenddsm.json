@@ -137,7 +137,7 @@
     "trendmicroTags": {
         "type": "object"
     },
-    "chef-softwareTags": {
+    "chefSoftwareTags": {
         "type": "object"
     },
     "splunkTags": {
@@ -380,8 +380,8 @@
               "trendmicroTags": {
                  "value": "[parameters('trendmicroTags')]"
               },
-              "chef-softwareTags": {
-                 "value": "[parameters('chef-softwareTags')]"
+              "chefSoftwareTags": {
+                 "value": "[parameters('chefSoftwareTags')]"
               },
               "splunkTags": {
                  "value": "[parameters('splunkTags')]"

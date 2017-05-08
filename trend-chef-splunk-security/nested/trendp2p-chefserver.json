@@ -112,7 +112,7 @@
         "trendmicroTags": {
             "type": "object"
         },
-        "chef-softwareTags": {
+        "chefSoftwareTags": {
             "type": "object"
         },
         "splunkTags": {
@@ -135,7 +135,7 @@
                 "program": "[parameters('tagvalues').program]",
                 "project": "[parameters('tagvalues').project]",
                 "quickstartName": "[parameters('quickstartTags').name]",
-                "provider": "[parameters('chef-softwareTags').provider]"
+                "provider": "[parameters('chefSoftwareTags').provider]"
             },
             "plan": {
                 "name": "[parameters('offerChoosedChefServer').vmSku]",
@@ -190,7 +190,7 @@
                 "program": "[parameters('tagvalues').program]",
                 "project": "[parameters('tagvalues').project]",
                 "quickstartName": "[parameters('quickstartTags').name]",
-                "provider": "[parameters('chef-softwareTags').provider]"
+                "provider": "[parameters('chefSoftwareTags').provider]"
             },
             "dependsOn": [
                 "[concat('Microsoft.Compute/virtualMachines/', parameters('vmNameChefServer'))]"
@@ -217,7 +217,7 @@
                 "program": "[parameters('tagvalues').program]",
                 "project": "[parameters('tagvalues').project]",
                 "quickstartName": "[parameters('quickstartTags').name]",
-                "provider": "[parameters('chef-softwareTags').provider]"
+                "provider": "[parameters('chefSoftwareTags').provider]"
             },
             "properties": {
                 "ipConfigurations": [{
@@ -254,7 +254,7 @@
                 "program": "[parameters('tagvalues').program]",
                 "project": "[parameters('tagvalues').project]",
                 "quickstartName": "[parameters('quickstartTags').name]",
-                "provider": "[parameters('chef-softwareTags').provider]"
+                "provider": "[parameters('chefSoftwareTags').provider]"
             },
             "properties": {
                 "securityRules": [{
@@ -317,7 +317,7 @@
                 "program": "[parameters('tagvalues').program]",
                 "project": "[parameters('tagvalues').project]",
                 "quickstartName": "[parameters('quickstartTags').name]",
-                "provider": "[parameters('chef-softwareTags').provider]"
+                "provider": "[parameters('chefSoftwareTags').provider]"
             },
             "properties": {
                 "publicIPAllocationMethod": "[parameters('publicIPAddressType')]",

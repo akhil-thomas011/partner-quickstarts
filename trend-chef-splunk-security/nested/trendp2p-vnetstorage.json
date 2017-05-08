@@ -79,7 +79,7 @@
     "trendmicroTags": {
        "type": "object"
     },
-    "chef-softwareTags": {
+    "chefSoftwareTags": {
        "type": "object"
     },
     "splunkTags": {

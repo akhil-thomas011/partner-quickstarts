@@ -11,7 +11,7 @@
     "trendmicroTags": {
       "type": "object"
     },
-    "chef-softwareTags": {
+    "chefSoftwareTags": {
       "type": "object"
     },
     "splunkTags": {
@@ -29,7 +29,7 @@
       "location": "[parameters('location')]",
       "tags": {
         "quickstartName": "[parameters('quickstartTags').name]",
-        "provider": "[parameters('chef-softwareTags').provider]"
+        "provider": "[parameters('chefSoftwareTags').provider]"
       },
       "properties": {
         "publisher": "Microsoft.Azure.Extensions",

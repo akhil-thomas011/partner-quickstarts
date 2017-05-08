@@ -185,7 +185,7 @@
     "trendmicroTags": {
       "type": "object"
     },
-    "chef-softwareTags": {
+    "chefSoftwareTags": {
       "type": "object"
     },
     "splunkTags": {
@@ -218,7 +218,7 @@
         "program": "[parameters('tagvalues').program]",
         "project": "[parameters('tagvalues').project]",
         "quickstartName": "[parameters('quickstartTags').name]",
-        "provider": "[parameters('chef-softwareTags').provider]"
+        "provider": "[parameters('chefSoftwareTags').provider]"
       },
       "properties": {
         "publicIPAllocationMethod": "Dynamic",
@@ -236,7 +236,7 @@
         "program": "[parameters('tagvalues').program]",
         "project": "[parameters('tagvalues').project]",
         "quickstartName": "[parameters('quickstartTags').name]",
-        "provider": "[parameters('chef-softwareTags').provider]"
+        "provider": "[parameters('chefSoftwareTags').provider]"
       },
       "dependsOn": [
         "[concat('Microsoft.Network/publicIPAddresses/',parameters('chefprefix'),variables('publicIPAddressNameChefWorkstation'))]"
@@ -267,7 +267,7 @@
         "program": "[parameters('tagvalues').program]",
         "project": "[parameters('tagvalues').project]",
         "quickstartName": "[parameters('quickstartTags').name]",
-        "provider": "[parameters('chef-softwareTags').provider]"
+        "provider": "[parameters('chefSoftwareTags').provider]"
       },
       "dependsOn": [
         "[concat('Microsoft.Network/networkInterfaces/', parameters('chefprefix'),variables('networkInterfaceNameChefWorkstation'))]"
@@ -315,7 +315,7 @@
         "program": "[parameters('tagvalues').program]",
         "project": "[parameters('tagvalues').project]",
         "quickstartName": "[parameters('quickstartTags').name]",
-        "provider": "[parameters('chef-softwareTags').provider]"
+        "provider": "[parameters('chefSoftwareTags').provider]"
       },
       "copy": {
         "name": "foo",
@@ -337,7 +337,7 @@
         "program": "[parameters('tagvalues').program]",
         "project": "[parameters('tagvalues').project]",
         "quickstartName": "[parameters('quickstartTags').name]",
-        "provider": "[parameters('chef-softwareTags').provider]"
+        "provider": "[parameters('chefSoftwareTags').provider]"
       },
       "dependsOn": [
         "[concat('Microsoft.Network/publicIPAddresses/', parameters('chefprefix'),variables('publicIPAddressNameDSAgent'),copyindex())]"
@@ -372,7 +372,7 @@
         "program": "[parameters('tagvalues').program]",
         "project": "[parameters('tagvalues').project]",
         "quickstartName": "[parameters('quickstartTags').name]",
-        "provider": "[parameters('chef-softwareTags').provider]"
+        "provider": "[parameters('chefSoftwareTags').provider]"
       },
       "dependsOn": [
         "[concat('Microsoft.Network/networkInterfaces/', parameters('chefprefix'),variables('networkInterfaceNameDSAgent'),copyindex())]"
@@ -424,7 +424,7 @@
         "program": "[parameters('tagvalues').program]",
         "project": "[parameters('tagvalues').project]",
         "quickstartName": "[parameters('quickstartTags').name]",
-        "provider": "[parameters('chef-softwareTags').provider]"
+        "provider": "[parameters('chefSoftwareTags').provider]"
       },
       "copy": {
         "name": "foo",
@@ -462,7 +462,7 @@
         "program": "[parameters('tagvalues').program]",
         "project": "[parameters('tagvalues').project]",
         "quickstartName": "[parameters('quickstartTags').name]",
-        "provider": "[parameters('chef-softwareTags').provider]"
+        "provider": "[parameters('chefSoftwareTags').provider]"
       },
       "copy": {
         "name": "foo",

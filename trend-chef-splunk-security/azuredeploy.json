@@ -540,7 +540,7 @@
       "type":"object",
       "provider":"F0253A01-8156-4D41-BD91-E182158D4972"
     },
-    "chef-softwareTags":{
+    "chefSoftwareTags":{
       "type":"object",
       "provider":"IDNotAvailable"
     },
@@ -621,7 +621,7 @@
             "value": "[variables('trendmicroTags')]"
           },
           "chefSoftwareTags": {
-            "value": "[variables('chef-softwareTags')]"
+            "value": "[variables('chefSoftwareTags')]"
           },
           "splunkTags": {
             "value": "[variables('splunkTags')]"
@@ -742,8 +742,8 @@
           "trendmicroTags": {
             "value": "[variables('trendmicroTags')]"
           },
-          "chef-softwareTags": {
-            "value": "[variables('chef-softwareTags')]"
+          "chefSoftwareTags": {
+            "value": "[variables('chefSoftwareTags')]"
           },
           "splunkTags": {
             "value": "[variables('splunkTags')]"
@@ -828,8 +828,8 @@
           "trendmicroTags": {
             "value": "[variables('trendmicroTags')]"
           },
-          "chef-softwareTags": {
-            "value": "[variables('chef-softwareTags')]"
+          "chefSoftwareTags": {
+            "value": "[variables('chefSoftwareTags')]"
           },
           "splunkTags": {
             "value": "[variables('splunkTags')]"
@@ -937,8 +937,8 @@
           "trendmicroTags": {
             "value": "[variables('trendmicroTags')]"
           },
-          "chef-softwareTags": {
-            "value": "[variables('chef-softwareTags')]"
+          "chefSoftwareTags": {
+            "value": "[variables('chefSoftwareTags')]"
           },
           "splunkTags": {
             "value": "[variables('splunkTags')]"
@@ -1023,8 +1023,8 @@
           "trendmicroTags": {
             "value": "[variables('trendmicroTags')]"
           },
-          "chef-softwareTags": {
-            "value": "[variables('chef-softwareTags')]"
+          "chefSoftwareTags": {
+            "value": "[variables('chefSoftwareTags')]"
           },
           "splunkTags": {
             "value": "[variables('splunkTags')]"
@@ -1141,8 +1141,8 @@
           "trendmicroTags": {
             "value": "[variables('trendmicroTags')]"
           },
-          "chef-softwareTags": {
-            "value": "[variables('chef-softwareTags')]"
+          "chefSoftwareTags": {
+            "value": "[variables('chefSoftwareTags')]"
           },
           "splunkTags": {
             "value": "[variables('splunkTags')]"
@@ -1307,8 +1307,8 @@
           "trendmicroTags": {
             "value": "[variables('trendmicroTags')]"
           },
-          "chef-softwareTags": {
-            "value": "[variables('chef-softwareTags')]"
+          "chefSoftwareTags": {
+            "value": "[variables('chefSoftwareTags')]"
           },
           "splunkTags": {
             "value": "[variables('splunkTags')]"
