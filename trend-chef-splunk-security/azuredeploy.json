@@ -336,7 +336,7 @@
         "description": "The base URL for dependent deployment files",
         "artifactsBaseUrl": ""
       },
-      "defaultValue": "https://raw.githubusercontent.com/SpektraSystems/partner-quickstarts/master/trend-chef-splunk-security"
+      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/trend-chef-splunk-security"
     }
   },
   "variables": {
@@ -538,15 +538,15 @@
     "chefnodeCustomScripturl": "[concat(parameters('baseUrl'),'/scripts/p2pchefnodebootstrap.sh')]",
     "trendmicroTags":{
       "type":"object",
-      "provider":"B33D5D26-DD73-41FC-994A-BD709E8C8488"
+      "provider":"F0253A01-8156-4D41-BD91-E182158D4972"
     },
     "chef-softwareTags":{
       "type":"object",
-      "provider":"C417510C-A4EC-4E09-8BA4-86DA72BC2F5E"
+      "provider":"IDNotAvailable"
     },
     "splunkTags":{
       "type":"object",
-      "provider":"C417510C-A4EC-4E09-8BA4-86DA72BC2F5E"
+      "provider":"IDNotAvailable"
     },
     "quickstartTags":{
       "type":"object",
@@ -620,7 +620,7 @@
           "trendmicroTags": {
             "value": "[variables('trendmicroTags')]"
           },
-          "chef-softwareTags": {
+          "chefSoftwareTags": {
             "value": "[variables('chef-softwareTags')]"
           },
           "splunkTags": {
