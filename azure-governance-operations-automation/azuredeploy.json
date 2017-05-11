@@ -89,7 +89,7 @@
 
     "_artifactsLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/AvyanConsultingCorp/azure-quickstart-templates/master/azure-governance-operations-automation",
+      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/azure-governance-operations-automation",
       "metadata": {
         "description": "Publicly accessible location of all deployment artifacts."
       }
@@ -125,7 +125,7 @@
     "OMSCommonTemplateFileName": "OMSCommon.json",
     "quickstartTags":{
       "type":"object",
-      "name":"cloudera-tableau"
+      "name":"azure-governance-operations-automation"
     }
   },
   "resources": [
@@ -535,10 +535,11 @@
           "_artifactsLocation": {
             "value": "[concat(parameters('_artifactsLocation'), '/', variables('OMSWebAppsRunBookAndDashboardTemplateFolder'))]"
           },
-          "_artifactsLocationSasToken": {  "value": "[parameters('_artifactsLocationSasToken')]" }
-         },
+          "_artifactsLocationSasToken": {  "value": "[parameters('_artifactsLocationSasToken')]" 
+          },
           "quickstartTags": {
             "value": "[variables('quickstartTags')]"
+        }
         }
       }
     }
