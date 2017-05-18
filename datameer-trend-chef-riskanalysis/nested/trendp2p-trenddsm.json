@@ -145,18 +145,6 @@
     "dbName": {
         "type": "string",
           "defaultValue": ""
-    },
-    "datameerTags": {
-        "type": "object"
-    },
-    "trendmicroTags": {
-        "type": "object"
-    },
-    "chefSoftwareTags": {
-        "type": "object"
-    },
-    "quickstartTags": {
-        "type": "object"
     }
   	},
   	"variables": {
