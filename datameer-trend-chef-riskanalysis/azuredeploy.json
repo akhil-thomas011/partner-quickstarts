@@ -510,11 +510,11 @@
     },
     "trendmicroTags": {
       "type": "object",
-      "provider": "ED5CBF45-2AA4-4408-B52D-1C76DFCA0BD7"
+      "provider": "F0253A01-8156-4D41-BD91-E182158D4972"
     },
     "chefSoftwareTags":{
       "type":"object",
-      "provider":"IDNotAvailable"
+      "provider":"33194f91-eb5f-4110-827a-e95f640a9e46"
     },
     "quickstartTags": {
       "type": "object",
