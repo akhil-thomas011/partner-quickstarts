@@ -66,8 +66,20 @@
     "storageAccountName": {
       "defaultValue": "",
       "type": "String"
-    }
-  },
+    },
+    "datameerTags": {
+            "type": "object"
+        },
+        "trendmicroTags": {
+            "type": "object"
+        },
+        "chefSoftwareTags": {
+            "type": "object"
+        },
+        "quickstartTags": {
+            "type": "object"
+        }
+    },
   "variables": {
 
     "publicIpName": "[parameters('machineSettings').publicIPName]",
